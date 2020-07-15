@@ -78,9 +78,9 @@ a:hover {
   margin-top: 40px;
   position: relative;
   left: 50%;
-  height: 400px;
+  height: 280px;
   width: 0;
-  border-width: 30px;
+  border-width: 25px;
   border-style: none dotted none none;
 }
 /* ----------Footer---------- */
@@ -97,6 +97,7 @@ a:hover {
 
 #footer a:hover {
   color: white;
+  opacity: 0.8;
 }
 
 #footer p {

@@ -1,0 +1,112 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ----------------titlepage styling---------------- */
+#music.container-fluid {
+  background: rgb(255,0,56);
+  background: linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(136,0,255,1) 0%, rgba(0,146,255,1) 66%, rgba(0,224,255,1) 100%);
+  color: white;
+  padding: 3% 10% 12%;
+}
+
+/* navigation bar */
+#navBar {
+  text-align: left;
+  padding-left: 0;
+  margin-bottom: 6rem;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.brand {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2rem;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-left: 24px;
+}
+
+/* ----------body----------- */
+
+.video {
+  display: inline-block;
+  width: 60%;
+}
+.carousel-caption {
+  padding: 30px;
+  right: 0;
+  left: 0;
+  position: relative;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 20%;
+}
+
+/* ----------tabs---------- */
+
+#tabs {
+  margin: 100px 10% 110px;
+}
+#tabs h1:hover {
+  display: inline-block;
+  opacity: 0.7
+}
+#tabs .tab-row {
+  padding-top: 40px;
+}
+#tabs .tab {
+  margin-bottom: 40px;
+}
+#tabs img {
+  width: 100%;
+}
+#tabs h2 {
+  text-align: center;
+  font-size: 4.0625rem;
+  font-weight: bolder;
+}
+.dots {
+  margin-top: 40px;
+  position: relative;
+  left: 50%;
+  height: 280px;
+  width: 0;
+  border-width: 25px;
+  border-style: none dotted none none;
+}
+/* ----------Footer---------- */
+#footer {
+  background-color: #00c6e2;
+  margin: 0;
+  padding: 50px 24% 250px;
+}
+
+#footer a {
+  padding: 0 2.5% 0;
+  color: white;
+}
+
+#footer a:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#footer p {
+  margin-top: 3%;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  #navBar {
+    text-align: center;
+  }
+}

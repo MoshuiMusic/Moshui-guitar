@@ -104,3 +104,9 @@ a:hover {
   margin-top: 3%;
   color: white;
 }
+
+@media (max-width: 1000px) {
+  #navBar {
+    text-align: center;
+  }
+}
